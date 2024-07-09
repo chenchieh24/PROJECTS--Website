@@ -1,0 +1,209 @@
+/* ----init all attributes---- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: DFkai-sb, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight :normal;
+}
+
+/* ----All page the same---- */
+
+header div.top {
+    padding: 1rem;
+    background-image: url("images/background.png");
+}
+header div.top h1{
+    font-size: 2.5rem;
+}
+header div.top h3{
+    font-size: 1rem;
+}
+
+/* ----- */
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0.8rem 1.2rem;
+    background-color: black;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+    padding: 0.8rem;
+    transition: all 0.3s ease;
+}
+nav ul a:hover{
+    color: #eee8b0;
+}
+nav ul a:active{
+    color: yellow;
+}
+.active{
+    color: yellow;
+}
+
+/* *****[index page]***** */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+main section{
+    padding: 1rem;
+}
+
+/* ----- */
+
+section.left{
+    flex: 1 1 200px;
+}
+section.left img{
+    width: 90%;
+}
+section.left h3{
+    margin-bottom: 1rem;
+}
+section.left table{
+    margin-top: 1rem;
+}
+section.left table, section.left td{
+    padding: 0.25rem;
+}
+
+/* ----- */
+
+section.right{
+    flex: 4 1 500px;
+}
+section.right h3{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+section.right ul li{
+    margin-left: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+/* 這裡的p標籤套用於網站上全部的p標籤 */
+p{
+    padding:0.5rem 0rem;
+}
+
+
+/* *****[Korea page]***** */
+
+main.korea{
+    display: block;
+    flex-wrap: wrap;
+}
+
+main.korea div{
+    margin:1rem;
+}
+
+main.korea section{
+    margin: 2rem 3rem;
+    padding: 0.5rem;
+    border-style: solid ;
+    border-color: burlywood;
+}
+main.korea h3{
+    font-size: 1.5rem;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.korea section h3{
+    padding: 0;
+    color:rgb(0, 90, 91);
+}
+.korea section h4{
+    color:rgb(6, 120, 120);
+}
+
+/* *****[Japan page]***** */
+
+div.japan{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.photo{
+    flex: 1 1 300px;
+    display: flex;
+    align-items: center;
+}
+.photo img{
+    width: 100%;
+}
+.info{
+    flex: 3 1 600px;
+    padding: 2rem;
+}
+.info ul{
+    padding: 0rem 1rem;
+}
+
+div.competition {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+div.competition div.text{
+    flex: 5 1 300px;
+    padding: 1rem;
+}
+
+div.text h3{
+    font-size: 2rem;
+    color:rgb(6, 120, 120);
+}
+div.text ul{
+    padding: 0rem 1rem;
+}
+
+#piechart{
+    flex: 1 1 300px;
+}
+
+/* *****[China page]***** */
+
+.china h3{
+    font-size: 2rem;
+    color:rgb(6, 120, 120);
+}
+
+.china table,
+.china th,
+.china td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 2px 4px;
+}
+
+.china table {
+  min-width: 1000px;
+}
+
+.china th {
+  background-color: rgb(86, 224, 192);
+  color: white;
+}
+
+/* *****[Taiwan page]***** */
+
+.taiwan h3{
+    font-size: 2rem;
+    color:rgb(6, 120, 120);
+}
+
+.taiwan ul{
+    margin-left: 2rem;
+}
+
+
